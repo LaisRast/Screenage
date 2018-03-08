@@ -1,0 +1,6 @@
+apiclient
+httplib2
+pillow
+feedparser
+datetime
+google-api-python-client
