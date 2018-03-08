@@ -44,8 +44,8 @@ $ bash start.sh
 ## To-Do List
 * Write a better documentation.
 * Screenage Modules:
- * Add more modules.
- * Add other News modules.
+  * Add more modules.
+  * Add other News modules.
 
 
 
