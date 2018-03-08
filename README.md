@@ -24,7 +24,7 @@ Screenage takes the lines from a given file and renders them into the moving tex
 To provide Screenage with that file, please edit `/scripts/config.ini` and add the path of that file to it. 
 
 ### Weather API Key
-Screenage uses OpenWeatherMap API to get weather data. Thus, you need to have an API key. You can get one from [this site](http://openweathermap.org) (it's free.)
+Screenage uses OpenWeatherMap API to get weather data. Thus, you need to have an API key. You can get one from [here](http://openweathermap.org) (it's free.)
 After getting a key, please edit `/scripts/config.ini` and add the key to it.
 
 ### Google Calendar
