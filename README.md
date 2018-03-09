@@ -14,23 +14,23 @@ $ pip3 install -r requirements.txt
 ```
 
 ### Setup your Location
-Screenage needs to know your location to provide traffic and weather information. You can provide Screenage with your location using the script `/scripts/get_location`. Just type
+Screenage needs to know your location to provide traffic and weather information. You can provide Screenage with your location using the script `scripts/get_location.py`. Just type
 ```
-$ python3 get_location <your location>
+$ python3 scripts/get_location.py <your location>
 ```
 
 ### Notes
 Screenage takes the lines from a given file and renders them into the moving text at the bottom of the software window. 
-To provide Screenage with that file, please edit `/scripts/config.ini` and add the path of that file to it. 
+To provide Screenage with that file, please edit `scripts/config.ini` and add the path of that file to it. 
 
 ### Weather API Key
 Screenage uses OpenWeatherMap API to get weather data. Thus, you need to have an API key. You can get one from [here](http://openweathermap.org) (it's free.)
-After getting a key, please edit `/scripts/config.ini` and add the key to it.
+After getting a key, please edit `scripts/config.ini` and add the key to it.
 
 ### Google Calendar
 To display your Google calendar events, copy your `client_secret.json` file to `/scripts/gcalendar`, and run
 ```
-$ python3 /scripts/gcalendar/gcalendar.py
+$  python3 scripts/gcalendar/gcalendar.py
 ```
 Then follow the instructions. You need to do that just for the first time you run Screenage.
 Learn more about `client_secret.json` [here](https://developers.google.com/google-apps/calendar/quickstart/go)
@@ -46,6 +46,3 @@ $ bash start.sh
 * Screenage Modules:
   * Add more modules.
   * Add other News modules.
-
-
-
