@@ -13,7 +13,7 @@ The full list of required modules is provided in `requirements.txt`. You can ins
 $ pip3 install -r requirements.txt
 ```
 
-### Setup your Location
+### Location
 Screenage needs to know your location to provide traffic and weather information. You can provide Screenage with your location using the script `scripts/get_location.py`. Just type
 ```
 $ python3 scripts/get_location.py <your location>
@@ -23,7 +23,7 @@ $ python3 scripts/get_location.py <your location>
 Screenage takes the lines from a given file and renders them into the moving text at the bottom of the software window. 
 To provide Screenage with that file, please edit `scripts/config.ini` and add the path of that file to it. 
 
-### Weather API Key
+### Weather
 Screenage uses OpenWeatherMap API to get weather data. Thus, you need to have an API key. You can get one from [here](http://openweathermap.org) (it's free.)
 After getting a key, please edit `scripts/config.ini` and add the key to it.
 
