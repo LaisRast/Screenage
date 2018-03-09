@@ -30,7 +30,7 @@ After getting a key, please edit `scripts/config.ini` and add the key to it.
 ### Google Calendar
 To display your Google calendar events, copy your `client_secret.json` file to `/scripts/gcalendar`, and run
 ```
-$  python3 scripts/gcalendar/gcalendar.py
+$ python3 scripts/gcalendar/gcalendar.py
 ```
 Then follow the instructions. You need to do that just for the first time you run Screenage.
 Learn more about `client_secret.json` [here](https://developers.google.com/google-apps/calendar/quickstart/go)
